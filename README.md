@@ -22,6 +22,25 @@
 </p>
 
 
+## Bootstrap 5 (Namespaced)
+
+<b>This repo has been namespaced the css with .bootstrapV5 wrapper, so that it will not interfere with page current css.</b>
+
+Edit `scss/bootstrap.scss`.
+
+Add wrapper bootstrapV5 from `scss-docs-start import-stack` till `scss-docs-end import-stack`
+
+```css
+.bootstrapV5 {
+    // scss-docs-start import-stack
+    // Configuration
+    @import "functions";
+    ...
+    @import "utilities/api";
+    // scss-docs-end import-stack
+}
+```
+
 ## Bootstrap 5
 
 Our default branch is for development of our Bootstrap 5 release. Head to the [`v4-dev` branch](https://github.com/twbs/bootstrap/tree/v4-dev) to view the readme, documentation, and source code for Bootstrap 4.
@@ -29,16 +48,23 @@ Our default branch is for development of our Bootstrap 5 release. Head to the [`
 
 ## Table of contents
 
+- [Bootstrap 5 (Namespaced)](#bootstrap-5-namespaced)
+- [Bootstrap 5](#bootstrap-5)
+- [Table of contents](#table-of-contents)
 - [Quick start](#quick-start)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
+  - [Running documentation locally](#running-documentation-locally)
+  - [Documentation for previous releases](#documentation-for-previous-releases)
 - [Contributing](#contributing)
 - [Community](#community)
 - [Versioning](#versioning)
 - [Creators](#creators)
 - [Thanks](#thanks)
+- [Sponsors](#sponsors)
+- [Backers](#backers)
 - [Copyright and license](#copyright-and-license)
 
 
